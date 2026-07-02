@@ -1,0 +1,19 @@
+[
+  {
+    "npc_id": 1,
+    "npc_name": "Travelling Merchant",
+    "items": [
+      {"item_name":"Brick Layer","price":null,"condition":"available occasionally"},
+      {"item_name":"Extendo Grip","price":null,"condition":"available occasionally"},
+      {"item_name":"Portable Cement Mixer","price":null,"condition":"available occasionally"}
+    ]
+  },
+  {
+    "npc_id": 2,
+    "npc_name": "Angler",
+    "items": [
+      {"item_name":"Tackle Box","price":null,"condition":"quest reward"},
+      {"item_name":"High Test Fishing Line","price":null,"condition":"quest reward"}
+    ]
+  }
+]

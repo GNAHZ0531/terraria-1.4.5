@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Travelling Merchant",
+    "type": "vendor",
+    "shop_notes": "Sells various miscellaneous items; appears occasionally"
+  },
+  {
+    "id": 2,
+    "name": "Angler",
+    "type": "quest_giver",
+    "shop_notes": "Gives fishing quests and sells fishing-related items"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "source": "Azure Crate",
+    "drops": [
+      {"item_name":"Lucky Horseshoe","chance":"25%"},
+      {"item_name":"Shiny Red Balloon","chance":"25%"}
+    ]
+  },
+  {
+    "source": "Queen Bee",
+    "drops": [
+      {"item_name":"Honey Comb","chance":"33%"}
+    ]
+  }
+]

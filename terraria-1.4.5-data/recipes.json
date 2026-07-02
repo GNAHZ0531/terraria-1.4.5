@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Bundle of Balloons",
+    "recipes": [
+      { "ingredients": [ {"name":"Cloud in a Balloon"}, {"name":"Blizzard in a Balloon"}, {"name":"Sandstorm in a Balloon"} ] }
+    ]
+  },
+  {
+    "name": "Cloud in a Balloon",
+    "recipes": [
+      { "ingredients": [ {"name":"Cloud in a Bottle"}, {"name":"Shiny Red Balloon"} ] }
+    ]
+  },
+  {
+    "name": "Blizzard in a Balloon",
+    "recipes": [
+      { "ingredients": [ {"name":"Blizzard in a Bottle"}, {"name":"Shiny Red Balloon"} ] }
+    ]
+  },
+  {
+    "name": "Fart in a Balloon",
+    "recipes": [
+      { "ingredients": [ {"name":"Fart in a Jar"}, {"name":"Shiny Red Balloon"} ] }
+    ]
+  },
+  {
+    "name": "Honey Balloon",
+    "recipes": [
+      { "ingredients": [ {"name":"Honey Comb"}, {"name":"Shiny Red Balloon"} ] }
+    ]
+  },
+  {
+    "name": "Amber Horseshoe Balloon",
+    "recipes": [
+      { "ingredients": [ {"name":"Honey Balloon"}, {"name":"Lucky Horseshoe"} ] }
+    ]
+  },
+  {
+    "name": "Amphibian Boots",
+    "recipes": [
+      { "ingredients": [ {"name":"Sailfish Boots"}, {"name":"Frog Leg"} ] }
+    ]
+  },
+  {
+    "name": "Angler Tackle Bag",
+    "recipes": [
+      { "ingredients": [ {"name":"High Test Fishing Line"}, {"name":"Tackle Box"}, {"name":"Angler Earring"} ] }
+    ]
+  },
+  {
+    "name": "Ankh Charm",
+    "recipes": [
+      { "ingredients": [ {"name":"Armor Bracing"}, {"name":"Medicated Bandage"}, {"name":"The Plan"}, {"name":"Countercurse Mantra"}, {"name":"Reflective Shades"} ] }
+    ]
+  },
+  {
+    "name": "Ankh Shield",
+    "recipes": [
+      { "ingredients": [ {"name":"Obsidian Shield"}, {"name":"Ankh Charm"} ] }
+    ]
+  }
+]

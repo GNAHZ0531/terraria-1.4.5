@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>copilot</Author>
+  <Created>2026-07-02T00:00:00Z</Created>
+ </DocumentProperties>
+ <Styles>
+  <Style ss:ID="Header">
+    <Font ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <!-- Items sheet -->
+ <Worksheet ss:Name="items">
+  <Table>
+   <Row ss:StyleID="Header"><Cell><Data ss:Type="String">id</Data></Cell><Cell><Data ss:Type="String">name</Data></Cell><Cell><Data ss:Type="String">tooltip</Data></Cell><Cell><Data ss:Type="String">tags</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="Number">1</Data></Cell><Cell><Data ss:Type="String">Tackle Box</Data></Cell><Cell><Data ss:Type="String">Decreases chance of bait consumption</Data></Cell><Cell><Data ss:Type="String">Fishing</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="Number">2</Data></Cell><Cell><Data ss:Type="String">Honey Balloon</Data></Cell><Cell><Data ss:Type="String">Increases jump height; Releases bees and douses the user in honey when damaged</Data></Cell><Cell><Data ss:Type="String">Health;Mobility</Data></Cell></Row>
+  </Table>
+ </Worksheet>
+ <!-- Recipes sheet -->
+ <Worksheet ss:Name="recipes">
+  <Table>
+   <Row ss:StyleID="Header"><Cell><Data ss:Type="String">product</Data></Cell><Cell><Data ss:Type="String">ingredients</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="String">Bundle of Balloons</Data></Cell><Cell><Data ss:Type="String">Cloud in a Balloon;Blizzard in a Balloon;Sandstorm in a Balloon</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="String">Cloud in a Balloon</Data></Cell><Cell><Data ss:Type="String">Cloud in a Bottle;Shiny Red Balloon</Data></Cell></Row>
+  </Table>
+ </Worksheet>
+ <!-- NPCs sheet -->
+ <Worksheet ss:Name="npcs">
+  <Table>
+   <Row ss:StyleID="Header"><Cell><Data ss:Type="String">id</Data></Cell><Cell><Data ss:Type="String">name</Data></Cell><Cell><Data ss:Type="String">type</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="Number">1</Data></Cell><Cell><Data ss:Type="String">Travelling Merchant</Data></Cell><Cell><Data ss:Type="String">vendor</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="Number">2</Data></Cell><Cell><Data ss:Type="String">Angler</Data></Cell><Cell><Data ss:Type="String">quest_giver</Data></Cell></Row>
+  </Table>
+ </Worksheet>
+ <!-- Shops sheet -->
+ <Worksheet ss:Name="shops">
+  <Table>
+   <Row ss:StyleID="Header"><Cell><Data ss:Type="String">npc_id</Data></Cell><Cell><Data ss:Type="String">npc_name</Data></Cell><Cell><Data ss:Type="String">items</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="Number">1</Data></Cell><Cell><Data ss:Type="String">Travelling Merchant</Data></Cell><Cell><Data ss:Type="String">Brick Layer;Extendo Grip;Portable Cement Mixer</Data></Cell></Row>
+  </Table>
+ </Worksheet>
+ <!-- Drops sheet -->
+ <Worksheet ss:Name="drops">
+  <Table>
+   <Row ss:StyleID="Header"><Cell><Data ss:Type="String">source</Data></Cell><Cell><Data ss:Type="String">item_name</Data></Cell><Cell><Data ss:Type="String">chance</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="String">Azure Crate</Data></Cell><Cell><Data ss:Type="String">Lucky Horseshoe</Data></Cell><Cell><Data ss:Type="String">25%</Data></Cell></Row>
+  </Table>
+ </Worksheet>
+</Workbook>

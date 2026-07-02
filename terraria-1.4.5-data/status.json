@@ -1,0 +1,18 @@
+{
+  "version": "1.4.5",
+  "status": "partial_complete",
+  "generated_files": [
+    "items.json",
+    "recipes.json",
+    "npcs.json",
+    "shops.json",
+    "drops.json",
+    "terraria-1.4.5.xlsx"
+  ],
+  "sources": [
+    "https://github.com/LittleString/Tinkery/items.js",
+    "https://github.com/LittleString/Tinkery/recipes.js",
+    "https://terraria.wiki.gg/"
+  ],
+  "notes": "This is a first-pass export containing a representative subset of items and recipes extracted from Tinkery and Wiki references. I will continue to expand and fully normalize all items/recipes/npcs/shops/drops in follow-up commits if you want a complete dump."
+}

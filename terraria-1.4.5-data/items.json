@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "name": "Tackle Box",
+    "tooltip": "Decreases chance of bait consumption",
+    "value": { "copper": 0, "silver": 0, "gold": 1, "platinum": 0 },
+    "tags": ["Fishing"],
+    "location": [{"place":"Angler Quest","odds":"2.5%"}]
+  },
+  {
+    "id": 2,
+    "name": "Honey Balloon",
+    "tooltip": "Increases jump height\nReleases bees and douses the user in honey when damaged",
+    "value": { "copper": 0, "silver": 0, "gold": 2, "platinum": 0 },
+    "tags": ["Health","Mobility"]
+  },
+  {
+    "id": 3,
+    "name": "Lucky Horseshoe",
+    "tooltip": "Negates fall damage\n'Said to bring good fortune and keep evil spirits at bay'",
+    "value": { "copper": 0, "silver": 54, "gold": 0, "platinum": 0 },
+    "tags": ["Mobility"],
+    "location": [{"place":"Azure Crate","odds":"25%"},{"place":"Sky Crate","odds":"25%"},{"place":"Skyware Chest","odds":"25%"}]
+  },
+  {
+    "id": 4,
+    "name": "Sailfish Boots",
+    "tooltip": "The wearer can run super fast",
+    "value": { "copper": 0, "silver": 0, "gold": 1, "platinum": 0 },
+    "tags": ["Mobility"]
+  },
+  {
+    "id": 5,
+    "name": "Frog Leg",
+    "tooltip": "Increases jump speed and allows auto-jump\nIncreases fall resistance",
+    "value": { "copper": 0, "silver": 0, "gold": 1, "platinum": 0 },
+    "tags": ["Mobility"],
+    "location": [{"place":"Fishing catch","odds":[{"Fishing Power 50%":"0.2%"},{"Fishing Power 100%":"0.4%"}]}]
+  },
+  {
+    "id": 6,
+    "name": "High Test Fishing Line",
+    "tooltip": "Fishing line will never break",
+    "value": { "copper": 0, "silver": 0, "gold": 1, "platinum": 0 },
+    "tags": ["Fishing"],
+    "location": [{"place":"Angler Quest","odds":"2.5%"}]
+  },
+  {
+    "id": 7,
+    "name": "Angler Earring",
+    "tooltip": "Increases fishing power by 10",
+    "value": { "copper": 0, "silver": 0, "gold": 1, "platinum": 0 },
+    "tags": ["Fishing"],
+    "location": [{"place":"Angler Quest","odds":"2.5%"}]
+  },
+  {
+    "id": 8,
+    "name": "Medicated Bandage",
+    "tooltip": "Immunity to Poison and Bleeding",
+    "value": { "copper": 0, "silver": 0, "gold": 2, "platinum": 0 },
+    "tags": ["Immunity"]
+  },
+  {
+    "id": 9,
+    "name": "Countercurse Mantra",
+    "tooltip": "Immunity to Silence and Curse",
+    "value": { "copper": 0, "silver": 0, "gold": 2, "platinum": 0 },
+    "tags": ["Immunity"]
+  },
+  {
+    "id": 10,
+    "name": "Obsidian Shield",
+    "tooltip": "Grants immunity to knockback\nGrants immunity to fire blocks",
+    "value": { "copper": 0, "silver": 0, "gold": 2, "platinum": 0 },
+    "tags": ["Immunity"]
+  }
+]
