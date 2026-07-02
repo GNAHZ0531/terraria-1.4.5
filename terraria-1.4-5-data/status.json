@@ -2,7 +2,7 @@
   "version": "1.4.5",
   "status": "processing_full",
   "started_at": "2026-07-02T03:10:00Z",
-  "progress": "10%",
+  "progress": "20%",
   "generated_files": [
     "items.json",
     "recipes.json",
@@ -16,6 +16,6 @@
     "https://github.com/LittleString/Tinkery/recipes.js",
     "https://terraria.wiki.gg/"
   ],
-  "estimated_completion_minutes": 40,
-  "notes": "正在进行完整导出：解析并标准化所有 items/recipes，抓取并合并 NPC/shops/drops 数据，生成 Excel 并做完整性校验。此文件会在每次重大进度更新时同步更新。"
+  "estimated_completion_minutes": 30,
+  "notes": "继续处理：解析并标准化所有 items/recipes，抓取并合并 NPC/shops/drops 数据，生成 Excel 并做完整性校验。此文件会在每次重大进度更新时同步更新。"
 }
